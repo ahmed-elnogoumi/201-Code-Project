@@ -1,0 +1,52 @@
+html {
+    font-family: sans-serif;
+    background-color: rgb(230, 200, 200);
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+p {
+    line-height: 2;
+}
+
+li {
+    line-height: 2;
+}
+
+#about-me {
+    text-align: center;
+    padding: 10px;
+    
+    background: rgba(255, 0, 0, 0.2);
+
+    margin-left: 400px;
+    margin-right: 400px;
+
+    border-radius: 3%;
+}
+
+#about-me h2 {
+    padding: 10px;
+}
+
+#about-me h3 {
+    padding: 10px;
+}
+
+footer {
+    text-align: center;
+}
