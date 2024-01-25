@@ -99,6 +99,7 @@ function programming_language_guessing_game(){
 
 }
 
+guessing_game();
 programming_language_guessing_game();
 number_guessing_game();
-guessing_game();
+

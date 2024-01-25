@@ -9,3 +9,6 @@
 ### Lighthouse Score
 
 ![Lighthouse Score is 100](img/image.png)
+
+Driver: Mak Trnka
+Navigator: Ahmed Elnogoumi
