@@ -53,8 +53,52 @@ function guessing_game(){
   }
 }
 
+function number_guessing_game(){
+  let number = 7;
+  let user_guess;
 
+  while(!user_guess){
+    user_guess = prompt('Guess a number: 1 - 10.');
+    user_guess = parseInt(user_guess);
+  }
 
+  while(user_guess !== number){
+    if(user_guess > number){
+      alert('Too high, try again!');
+    } else if (user_guess < number){
+      alert('Too low, try again!');
+    }
+    user_guess = prompt('Guess a number: 1 - 10.');
+    user_guess = parseInt(user_guess);
+  }
 
+  if(user_guess === number){
+    alert('Correct answer!');
+    user_guess = parseInt(user_guess);
+  }
 
+}
+
+function programming_language_guessing_game(){
+
+  let programming_languages = ['C++', 'JavaScript', 'HTML', 'CSS', 'Python', 'Lua'];
+  let guess = prompt('Which programming languages does Ahmed know?');
+  let guess_count = 0;
+
+  for (let x = 0; x < 6; x++) {
+    if (programming_languages.includes(guess)) {
+      guess_count++;
+      alert('Correct! You have ' + guess_count + ' questions right!');
+      guess = prompt('Which programming languages does Ahmed know?');
+    } else {
+      guess = prompt('Incorrect. Try again: Which programming languages does Ahmed know?');
+    }
+  }
+
+  alert('You got ' + guess_count + ' questions right!');
+
+}
+
+programming_language_guessing_game();
+number_guessing_game();
 guessing_game();
